@@ -95,7 +95,7 @@ cursor: pointer;
 @media only screen and (max-width:450px){
 
   .jobOpeningBox{
-    height: 365px; 
+    height: 400px; 
   }
   .headingQuotation{
     font-size: 16px;
