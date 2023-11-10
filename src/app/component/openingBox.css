@@ -1,0 +1,125 @@
+.opening-box {
+  display: flex;
+  max-width: 1090px;
+  width: calc(100% - 50px);
+  padding: 10px 60px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #535353;
+  margin: 20px 0;
+}
+
+.opening-box-content {
+  display: flex;
+  gap: 10px;
+}
+
+.opening-icon {
+  font-size: 24px;
+  color: var(--white);
+  margin: 10px 0;
+}
+.opening-title {
+  color: var(--white);
+  font-family: var(--helvetica);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.opening-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.opening-tag:nth-child(1) {
+  background: rgba(97, 183, 241, 0.75);
+}
+.opening-tag:nth-child(2) {
+  background: rgba(241, 175, 97, 0.75);
+}
+.opening-tag:nth-child(3) {
+  background: rgba(191, 165, 29, 0.75);
+}
+.opening-tag:nth-child(4) {
+  background: rgba(30, 114, 239, 0.75);
+}
+
+.opening-tag {
+  color: var(--white);
+  font-family: var(--helvetica);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 67px;
+  padding: 2px 0px;
+}
+
+.opening-box-apply-btn {
+  border: none;
+  outline: none;
+  background-color: none;
+  background: none;
+  display: flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: rgba(248, 187, 38, 0.67);
+  /* color: var(--white); */
+  cursor: pointer;
+}
+
+.applynow-btn {
+  color: var(--white);
+  font-family: var(--helvetica);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .opening-box {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+  .opening-box-apply-btn {
+    padding: 5px 10px;
+    margin: 10px 0;
+    align-self: flex-end;
+  }
+  .applynow-btn {
+    font-size: 18px;
+  }
+  .opening-icon{
+    font-size: 36px;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .opening-tag {
+    width: 50px;
+    padding: 3px 25px;
+    font-size: 12px;
+  }
+}

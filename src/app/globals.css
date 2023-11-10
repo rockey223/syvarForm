@@ -1,0 +1,20 @@
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+:root {
+  --helvetica : 'Helvetica Neue', sans-serif;
+  --black: #202124;
+  --white: #eaeaea;
+  --grey: #707070;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--black);
+  max-width: 100%;
+  overflow-x: hidden;
+}

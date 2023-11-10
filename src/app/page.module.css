@@ -1,0 +1,114 @@
+.homeMain {
+  margin-top: 60px;
+ width: 100%;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  gap: 10px;
+
+}
+.headingTitle {
+  font-family: var(--helvetica);
+  color: var(--white);
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.headingQuotation {
+  color: var(--white);
+  font-family: var(--helvetica);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* width: 80%; */
+  text-align: center;
+  margin: 0 20px;
+}
+
+.jobOpeningBox{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 245px;
+  overflow-y: hidden;
+}
+
+.contactBox{
+  height: 180px;
+  overflow-y: hidden;
+}
+
+.contactSection{
+  padding: 10px 0;
+ 
+
+}
+
+.contactTitle{
+  color: var(--white);
+  font-family: var(--helvetica);
+  font-size: 24px;
+}
+
+.contactDetails{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.contactFacebook,
+.contactPhone,
+.contactMail{
+  color: var(--white);
+  display: flex;
+  gap: 10px;
+font-size: 18px;
+font-family: var(--helvetica);
+cursor: pointer;
+}
+
+.footer{
+  text-align: center;
+  color: var(--white);
+  font-size: clamp(0.7rem 2rem 2.5rem);
+  margin-top: 10px;
+  padding: 10px 10px;
+  background: var(--grey);
+  width: 100%;
+}
+
+
+@media only screen and (max-width:450px){
+  .headingQuotation{
+    font-size: 16px;
+    margin-top: 10px;
+    text-wrap: balance;  
+  }
+
+  .contactTitle{
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  .contactFacebook,
+.contactPhone,
+.contactMail{
+  font-size: 14px;
+  margin: 0 15px;
+}
+
+}

@@ -1,0 +1,51 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.navbar-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.navbar-logo-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-brand-name {
+  color: var(--white);
+  font-family: var(--helvetica);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navbar-brand-tag {
+  color: var(--grey);
+  font-family: var(--helvetica);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-brand-name{
+    font-size: 28px;
+  }
+  .navbar-brand-tag{
+    font-size: 14px;
+  }
+}
