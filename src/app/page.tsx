@@ -52,7 +52,7 @@ export default function Home() {
           }}
         >
           <div className={style.contactTitle}>
-            Any Quires? Feel Free to contact us:
+            Any Queries? Feel Free to contact us:
           </div>
           <div className={style.contactDetails}>
             <motion.div

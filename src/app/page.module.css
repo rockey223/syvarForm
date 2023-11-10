@@ -47,7 +47,8 @@
 
 .contactBox{
   height: 180px;
-  overflow-y: hidden;
+  overflow: hidden;
+
 }
 
 .contactSection{
