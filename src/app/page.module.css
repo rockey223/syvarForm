@@ -1,6 +1,6 @@
 .homeMain {
   margin-top: 60px;
- width: 100%;
+  width: 100%;
 }
 .heading {
   display: flex;
@@ -10,7 +10,6 @@
   height: auto;
   width: 100%;
   gap: 10px;
-
 }
 .headingTitle {
   font-family: var(--helvetica);
@@ -35,7 +34,7 @@
   margin: 0 20px;
 }
 
-.jobOpeningBox{
+.jobOpeningBox {
   margin-top: 30px;
   display: flex;
   justify-content: center;
@@ -45,44 +44,40 @@
   overflow-y: hidden;
 }
 
-.contactBox{
+.contactBox {
   height: 180px;
   overflow: hidden;
-
 }
 
-.contactSection{
+.contactSection {
   padding: 10px 0;
- 
-
 }
 
-.contactTitle{
+.contactTitle {
   color: var(--white);
   font-family: var(--helvetica);
   font-size: 24px;
 }
 
-.contactDetails{
+.contactDetails {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  
 }
 
 .contactFacebook,
 .contactPhone,
-.contactMail{
+.contactMail {
   color: var(--white);
   display: flex;
   gap: 10px;
-font-size: 18px;
-font-family: var(--helvetica);
-cursor: pointer;
+  font-size: 18px;
+  font-family: var(--helvetica);
+  cursor: pointer;
 }
 
-.footer{
+.footer {
   text-align: center;
   color: var(--white);
   font-size: clamp(0.7rem 2rem 2.5rem);
@@ -90,30 +85,35 @@ cursor: pointer;
   padding: 10px 10px;
   background: var(--grey);
   width: 100%;
+
 }
 
-
-@media only screen and (max-width:450px){
-
-  .jobOpeningBox{
-    height: 400px; 
+@media only screen and (max-width: 700px) {
+  .jobOpeningBox {
+    height: 360px;
   }
-  .headingQuotation{
+}
+
+@media only screen and (max-width: 450px) {
+  .jobOpeningBox {
+    height: 400px;
+  }
+
+  .headingQuotation {
     font-size: 16px;
     margin-top: 10px;
-    text-wrap: balance;  
+    text-wrap: balance;
   }
 
-  .contactTitle{
+  .contactTitle {
     font-size: 18px;
     margin: 0 10px;
   }
-  
-  .contactFacebook,
-.contactPhone,
-.contactMail{
-  font-size: 14px;
-  margin: 0 15px;
-}
 
+  .contactFacebook,
+  .contactPhone,
+  .contactMail {
+    font-size: 14px;
+    margin: 0 15px;
+  }
 }
