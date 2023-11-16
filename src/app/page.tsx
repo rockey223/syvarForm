@@ -67,14 +67,14 @@ export default function Home() {
               </motion.span>
             </motion.div>
                   </Link>
-                  <Link href='tel:+977-9864-221-478'>
+                  <Link href='tel:+977-9840-575-736'>
             <motion.div
               className={style.contactPhone}
               whileHover={{ scale: 1.2, originX: 0 }}
             >
               <BiSolidPhoneCall />
               <motion.span whileHover={{ color: "#FFB736" }}>
-                +977-9864-123-456
+              +977-9840-575-736
               </motion.span>
             </motion.div>
             </Link>
