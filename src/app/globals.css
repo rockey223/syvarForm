@@ -12,7 +12,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+a{
+  color: black;
+  text-decoration: none;
+}
 body{
   background-color: var(--black);
   max-width: 100%;

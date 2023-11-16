@@ -3,14 +3,16 @@ import React from "react";
 import { PiSuitcaseSimpleLight } from "react-icons/pi";
 import "./openingBox.css";
 import {motion} from 'framer-motion'
+import Link from "next/link";
 type opening = {
   id: number;
   position: string;
   tags: string[];
+  link: string;
 };
 
 const OpeningBox = ({ item }: { item: opening } ) => {
-  const { id, position, tags } = item;
+  const { id, position, tags, link } = item;
   return (
     <>
       <motion.div className="opening-box" initial={{ y: "100vh" }}
@@ -35,9 +37,13 @@ const OpeningBox = ({ item }: { item: opening } ) => {
             </div>
           </div>
         </div>
+        <Link href={link}>
+        
+        
         <motion.button className="opening-box-apply-btn" whileHover={{scale: 0.9}}>
           <div className="applynow-btn" >Apply Now</div>
         </motion.button>
+        </Link>
       </motion.div>
     </>
   );

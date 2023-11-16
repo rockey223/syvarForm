@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { BsFacebook } from "react-icons/bs";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { GrMail } from "react-icons/gr";
+import Link from "next/link";
 export default function Home() {
   return (
     <motion.main className={style.homeMain}>
@@ -55,6 +56,7 @@ export default function Home() {
             Any Queries? Feel Free to contact us:
           </div>
           <div className={style.contactDetails}>
+            <Link href='https://www.facebook.com/syvartech'>
             <motion.div
               className={style.contactFacebook}
               whileHover={{ scale: 1.2, originX: 0 }}
@@ -64,6 +66,8 @@ export default function Home() {
                 https://www.facebook.com/syvartech
               </motion.span>
             </motion.div>
+                  </Link>
+                  <Link href='tel:+977-9864-221-478'>
             <motion.div
               className={style.contactPhone}
               whileHover={{ scale: 1.2, originX: 0 }}
@@ -73,6 +77,8 @@ export default function Home() {
                 +977-9864-123-456
               </motion.span>
             </motion.div>
+            </Link>
+            <Link href='mailto:info@syvar.com.np'>
             <motion.div
               className={style.contactMail}
               whileHover={{ scale: 1.2, originX: 0 }}
@@ -82,6 +88,7 @@ export default function Home() {
                 info@syvar.com.np
               </motion.span>
             </motion.div>
+            </Link>
           </div>
         </motion.div>
         </div>

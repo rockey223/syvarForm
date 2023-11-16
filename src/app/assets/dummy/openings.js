@@ -5,6 +5,7 @@ const Openings = [
         tags: [
             'figma'
         ],
+        link: "https://forms.gle/ze5VCPLbv2GuE3CT6"
         
     },
     {
@@ -16,7 +17,7 @@ const Openings = [
             'JS',
             'React'
         ],
-        
+        link: "https://forms.gle/fpy53a7N5SbM1Dgy8"
     }
 ]
 
