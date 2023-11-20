@@ -5,8 +5,7 @@
   "homepage": "https://rockey223.github.io/syvarForm/",
   "proxy": "https://rockey223.github.io/syvarForm/",
   "scripts": {
-    "predeploy": "npm next build",
-    "deploy": "gh-pages -d build",
+    
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
