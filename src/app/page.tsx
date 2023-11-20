@@ -10,9 +10,8 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { GrMail } from "react-icons/gr";
 import Link from "next/link";
 export default function Home() {
-  window.addEventListener(`contextmenu`, (e) => {
-    e.preventDefault();
-});
+
+  
   return (
     <motion.main className={style.homeMain}>
       <div className={style.heading}>
