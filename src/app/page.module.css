@@ -15,7 +15,7 @@
   font-family: var(--helvetica);
   color: var(--white);
 
-  font-size: 36px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -40,13 +40,16 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 275px;
+  height: 200px;
   overflow-y: hidden;
 }
 
 .contactBox {
+  margin-top: 50px;
   height: 180px;
   overflow: hidden;
+  /* align-self: flex-start;
+  margin-left: 275px; */
 }
 
 .contactSection {
