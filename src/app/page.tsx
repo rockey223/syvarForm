@@ -94,9 +94,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className={style.footer}>
-          &copy; All Right Reserved by Syvar Technology
-        </div>
+        
       </div>
     </motion.main>
   );

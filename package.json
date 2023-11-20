@@ -2,8 +2,8 @@
   "name": "syvarform",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rockey223.github.io/syvarForm/",
-  "proxy": "https://rockey223.github.io/syvarForm/",
+  "homepage": "https://syvar.com.np/",
+  "proxy": "https://syvar.com.np/",
   "scripts": {
     
     "dev": "next dev",
