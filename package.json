@@ -2,6 +2,8 @@
   "name": "syvarform",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rockey223.github.io/syvarForm/",
+  "proxy": "https://rockey223.github.io/syvarForm/",
   "scripts": {
     "predeploy": "npm next build",
     "deploy": "gh-pages -d build",
